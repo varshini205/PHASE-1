@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>portfolio</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: background-color 1s;
+}
+
+
+.sidebar a:hover {
+  background-color: #843db6 ;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  padding-top: 10px;
+  margin: 10px;
+  margin-left: 30%;
+  display: inline-block;
+  display: flex;
+  background: linear-gradient(to bottom, #eb3aff , #71eded );
+}
+.heading
+{
+  color: #d61f3e;
+  float: left;
+  
+}
+.content ul li 
+{
+ 
+  list-style-type: none;
+}
+button
+{
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d322e3;
+}
+.button
+{
+  color:aliceblue;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="/skill.html">ABOUT ME </a>
+  <a href="/education.html">EDUCATION</a>
+  <a href="/certi.html">CERTIFICATE</a>
+  <a href="/personal.html">PERSONAL INFORMATION</a>
+</div>
+
+<div class="content">
+  <ul>
+    <li>
+      <h2 class="heading">NPTEL:Ethical Hacking</h2>
+    </li>
+    <li>
+      <button>
+        <a class="button" href="/Ethical Hacking.pdf" download="ethtical hacking">Download</a>
+      </button>
+    </li>
+  </ul>
+</div>
+<div class="content">
+  <ul>
+    <li>
+    <h2 class="heading">CISCO:Network Essentials<h2>
+    </li>
+    <li>
+      <button>
+        <a class="button" href="/VarshiniAnbalagan-TNSDC_Naan Mudha-certificate.pdf" download="CISCO">download</a>
+      </button>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>

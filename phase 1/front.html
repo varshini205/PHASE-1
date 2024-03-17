@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+    <style>
+        #img
+        {
+            padding-left: 43%;
+            padding-top: 15px;
+            
+        }
+        .first-div
+        {
+            background-color: #3D3B3C;
+            border-radius: 25px 25px 0px 0px;
+        }
+        #title
+        {
+            color: blueviolet;
+            padding-left: 41%;
+            padding-bottom: 5px;
+        }
+        .items
+        {
+            display: flex;
+        }
+        .items li 
+        {
+           list-style-type: none;
+           padding-left: 100px;
+           padding-bottom: 10px;
+        }
+        .items li a
+        {
+            text-decoration: none;
+            color: aliceblue;
+            padding-right: 10px;
+        }  
+        .items li a i
+        {
+            color: blueviolet;
+        }
+        .second-div
+        {
+            background-color: blueviolet;
+            width: 100%;
+            display: block;
+            border-radius: 0px 0px 25px 25px;
+          
+
+            
+        }
+        .second-div button 
+        {
+            margin-top: 15%;
+            margin-left: 45%;
+            margin-bottom: 12%;
+            border: 2px solid #b744e4;
+            border-radius: 10px;
+            transition: background-color 1s;
+        }
+        .second-div button:hover
+        {
+            background-color: #8a1bac;
+        }
+        .second-div button a
+        {
+            text-decoration: none;
+            transition: color 1s;
+        }
+        .second-div button a:hover
+        {
+            color: aliceblue;
+        }
+</style>
+</head>
+<body>
+    <div>
+        <div class="first-div">
+            <img src="/img-modified.png" alt="my photo" width="200px" height="200px" id="img">
+            <h3 id="title"></h3>
+            <ul class="items">
+                <li>
+                    <a  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" ><i class="fa-regular fa-envelope"></i>Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/varshini205"><i class="fa-brands fa-github"></i>Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/varshini-anbalagan-ba5625244/"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                   
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-phone-volume"></i>8807749579</a>
+                </li>
+            </ul>
+        </div>
+        <div class="second-div">
+        
+            <button>
+                <a href="/skill.html">VIEW MY PORTFOLIO</a>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+    
+</body>
+</html>
